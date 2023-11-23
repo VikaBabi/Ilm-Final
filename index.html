@@ -16,14 +16,14 @@
     <div class="weather-box">
     <header>
         <form class="search-form">
-          <input type="search" placeholder="Enter a city.." required class="search-input" />
+          <input type="search" placeholder="Enter a city.." required class="search-input" id="search-form-input"/>
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
         <div class="weather-data">
         <div>
-          <h1 class="weather-city">Paris</h1>
+          <h1 class="weather-city" id="city">Paris</h1>
           <p class="weather-details">
             Tuesday 14:49, scattered clouds
             <br />
@@ -43,5 +43,7 @@
         " target="_blank"  > Netlify</a> .
     </footer>
     </div>
+    <script src="src/index.js" ></script>
 </body>
+
 </html>

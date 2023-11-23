@@ -15,21 +15,26 @@
 <body>
     <div class="weather-box">
     <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input type="search" placeholder="Enter a city.." required class="search-input" />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
+        <div class="weather-data">
         <div>
-          <h1>Paris</h1>
-          <p>
+          <h1 class="weather-city">Paris</h1>
+          <p class="weather-details">
             Tuesday 14:49, scattered clouds
             <br />
-            Humidity: 66%, Wind: 3.13km/h
+            Humidity:<strong> 66%</strong> ,Wind:<strong> 3.13km/h</strong>
           </p>
         </div>
-        <div>🌤️ 12°C</div>
+    </div>
+    <div class="weather-temperature-container">
+        <div class="weather-icon">🌤️</div>
+        <div class="weather-temperature">12</div>
+        <div class="weatehr-unit">°C</div>
       </main>
     <footer>
         The project was coded by <a href="https://github.com/VikaBabi" target="_blank" >Viktoria Babisashvili </a>and is on <a href="https://github.com/VikaBabi/Ilm-Final.git" target="_blank" >GitHub</a> and hosted on<a href="https://ilm-final.netlify.app
